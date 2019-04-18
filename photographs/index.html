@@ -21,18 +21,18 @@ sidebar_image: /images/sidebar.jpg
 
 	<div class="wrap">
 
-		{% for project in site.projects reversed %}
+		{% for photographs in site.photographs reversed %}
 
 		<div class="portfolio-item">
 
-			<a class="portfolio-item__link" href="{{ project.url }}">
+			<a class="portfolio-item__link" href="{{ photographs.url }}">
 
-				<div class="portfolio-item__image" style="background-image: url({{ project.featured_image  }});"></div>
+				<div class="portfolio-item__image" style="background-image: url({{ photographs.featured_image  }});"></div>
 
 				<div class="portfolio-item__content">
 					<div class="portfolio-item__info">
-						<h2 class="portfolio-item__title">{{ project.title }}</h2>
-						<p class="portfolio-item__subtitle">{{ project.subtitle }}</p>
+						<h2 class="portfolio-item__title">{{ photographs.title }}</h2>
+						<p class="portfolio-item__subtitle">{{ photographs.subtitle }}</p>
 					</div>
 				</div>
 
