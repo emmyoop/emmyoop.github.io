@@ -2,7 +2,7 @@
 title: 'Photo Challenges'
 subtitle: 'Testing & Growing Skills'
 date: 2019-04-16 00:00:00
-featured_image: '/images/square.jpg'
+featured_image: 'https://live.staticflickr.com/65535/40671149653_441aefbc24_b.jpg'
 published: true
 ---
 
@@ -11,13 +11,16 @@ published: true
 #### Take 10 Pictures of the same subject, but only the first picture should tell a story.
 
 <div class="gallery" data-columns="1">
-    <img src="https://live.staticflickr.com/65535/40670230733_3823c8d293_k.jpg">
-    <img src="https://live.staticflickr.com/65535/32694196947_94789781a6_k.jpg">
-    <img src="https://live.staticflickr.com/65535/46721174445_37b2694516_k.jpg">
-    <img src="https://live.staticflickr.com/65535/46912522094_a7fce9e910_b.jpg">
-    <img src="https://live.staticflickr.com/65535/46721176345_a5c6576834_b.jpg">
-    <img src="https://live.staticflickr.com/65535/46912523554_c27815e35d_b.jpg">
-    <img src="https://live.staticflickr.com/65535/46721178475_f0d409179b_b.jpg">
+    <img src="https://live.staticflickr.com/65535/46722041005_fd79a8340f_b.jpg">
+    <img src="https://live.staticflickr.com/65535/40671150773_4ce356e773_b.jpg">
+    <img src="https://live.staticflickr.com/65535/46722039635_6fb1bef3db_b.jpg">
+    <img src="https://live.staticflickr.com/65535/40671150263_538c8e20df_b.jpg">
+    <img src="https://live.staticflickr.com/65535/33760235048_a7521b818f_b.jpg">
+    <img src="https://live.staticflickr.com/65535/40671149653_441aefbc24_b.jpg">
+    <img src="https://live.staticflickr.com/65535/33760233748_cfcd102a7d_b.jpg">
+    <img src="https://live.staticflickr.com/65535/40671148933_1a7b4f37eb_b.jpg">
+    <img src="https://live.staticflickr.com/65535/33760232388_c9f6e560e0_b.jpg">
+    <img src="https://live.staticflickr.com/65535/40671147983_dc47672d18_b.jpg">
 </div>
 
 #### Take two pictures of the same subject but use a wide angle lens and a telephoto lens to exagerate their respective effects. 
