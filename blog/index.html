@@ -1,57 +1,35 @@
 ---
 layout: default
-title: emmyoop
-description: Mother of two, photographer, mathematician.
-featured_image: /images/logo.jpg
-sidebar_image: /images/sidebar.jpg
+featured: true
+latest_title: The Latest
 ---
 
-<section class="blog single">
-
-	<div class="wrap">
-
-		{% for post in paginator.posts %}
-
-		<article class="blog-post">
-
-			<div class="blog-post__header">
-				<h2 class="blog-post__title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				<p class="blog-post__subtitle">{{ post.date | date_to_long_string }} | <span class="time">{{ post.content | number_of_words | divided_by:180 }}</span> Minute Read</p>
-			</div>
-
-			{% if post.featured_image %}
-			<a href="{{ post.url }}" class="blog-post__image" style="background-image: url({{ post.featured_image  }});"></a>
-			{% endif %}
-
-			<div class="blog-post__content">
-				<p>{{ post.excerpt }}</p>
-			</div>
-
-		</article>
-
-		<hr />
-
-		{% endfor %}
-
-	</div>
-
-</section>
-
-{% if paginator.total_pages > 1 %}
-
-<section class="pagination">
-
-	{% if paginator.previous_page %}
-	<div class="pagination__prev">
-		<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="button button--large"><i class="fa fa-angle-left" aria-hidden="true"></i> <span>Newer Posts</span></a>
-	</div>
-	{% endif %}
-	{% if paginator.next_page %}
-	<div class="pagination__next">
-		<a href="{{ paginator.next_page_path | prepend: site.baseurl }}" class="button button--large"><span>Older Posts</span> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-	</div>
-	{% endif %}
-
-</section>
-
+{% if page.title %}
+  <div class="uk-container uk-margin-medium-bottom">
+    <hr class="uk-margin-remove-top">
+    <h1 class="section-title uk-text-center uk-margin">{{ page.title | escape }}</h1>
+    <hr class="uk-margin-remove">
+  </div>
 {% endif %}
+
+{% include section-featured.html %}
+
+<div class="uk-container uk-margin-medium-bottom">
+  <hr class="uk-margin-remove-top">
+  <h2 class="section-title uk-text-center uk-margin">{{ page.latest_title | default: 'The Latest' }}</h2>
+  <hr class="uk-margin-remove">
+</div>
+
+<div class="uk-container uk-container-small uk-margin-medium-bottom">
+
+  {% for post in paginator.posts %}
+
+    {% include content-media-left-1-3.html %}
+
+  {% endfor %}
+
+  {% include paginate-blog.html %}
+
+</div>
+
+{% include section-spotlight.html title="Spotlight" %}

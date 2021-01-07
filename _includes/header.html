@@ -1,40 +1,29 @@
-<header class="header">
+<header class="uk-margin-medium-bottom">
 
-	<div class="header-image header-image--on" style="background-image: url({% if page.sidebar_image %}{{ page.sidebar_image }}{% else %}/images/sidebar.jpg{% endif %});"></div>
-	<div class="header-image"></div>
+  <div>
+    <div class="uk-container uk-text-center">
+      <div class="uk-section uk-section-xsmall">
+        <a class="uk-logo uk-margin-small-top uk-display-inline-block" href="{{ "/" | relative_url }}">
+          {% if site.logo_image.dark %}
+            <img src="{{ site.uploads | absolute_url }}{{ site.logo_image.dark }}" alt="{{ site.title }}">
+          {% else %}
+            {{ site.title }}
+          {% endif %}
+        </a>
+      </div>
+    </div>
+  </div>
 
-	<div class="header-overlay"></div>
-
-	<div class="header__content">
-
-		{% if site.data.settings.header_settings.logo_image %}
-		<a href="/" class="header__logo">
-			<img src="{{ site.data.settings.header_settings.logo_image }}" class="header__logo__img">
-		</a>
-		{% else %}
-		<a href="/" class="header__title">
-			{{ site.data.settings.basic_settings.site_title }}
-		</a>
-		{% endif %}
-
-		<p class="header__tagline">{{ site.data.settings.basic_settings.site_tagline }}</p>
-
-		<div class="menu">
-			<div class="menu__toggle js-menu-toggle">
-				<div class="menu__toggle__icon"><span></span></div>
-			</div>
-			<div class="menu__wrap">
-				<ul class="menu__list">
-					{% for item in site.data.settings.menu_settings.menu_items %}
-					<li class="menu__list__item">
-						<a href="{{ item.url }}" class="menu__list__item__link js-no-ajax">{{ item.title }}</a>
-					</li>
-					{% endfor %}
-				</ul>
-				{% include socials.html %}
-			</div>
-		</div>
-
-	</div>
-
+  {% if site.navbar_primary.sticky %}
+    <div data-uk-sticky="animation: uk-animation-slide-top; top: 200; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-box-shadow-small;">
+      <nav class="uk-navbar-container">
+        {% include navbar-primary.html %}
+      </nav>
+    </div>
+  {% else %}
+    <nav class="uk-navbar-container">
+      {% include navbar-primary.html %}
+    </nav>
+  {% endif %}
+  
 </header>

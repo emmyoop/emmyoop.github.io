@@ -2,23 +2,44 @@
 layout: default
 ---
 
-<section class="intro">
+{% assign sidebar = page.sidebar | default: 'full' %}
 
-	<div class="wrap">
+{% if sidebar == 'left' %}
+  <div class="uk-container uk-container-small uk-margin-large">
+    <div class="uk-flex" data-uk-grid>
+      <div class="uk-width-expand@m">
+{% elsif sidebar == 'right' %}
+  <div class="uk-container uk-container-small uk-margin-large">
+    <div data-uk-grid>
+      <div class="uk-width-expand@m">
+{% else %}
+  <div class="uk-container uk-margin-large uk-container-xsmall">
+{% endif %}
 
-		<h1>{{ page.title }}</h1>
-		<p>{{ page.subtitle }}</p>
+  <article class="uk-article">
 
-	</div>
+    {% unless page.header %}
+      <h1 class="page-title uk-margin-medium-bottom">{{ page.title | escape }}</h1>
+    {% endunless %}
 
-</section>
+    <div class="content-primary">
+        {{ content }}
+    </div>
 
-<section class="single">
+  </article>
 
-	<div class="wrap">
+{% if sidebar == 'left' %}
+    </div>
+    <aside class="uk-width-1-3@m uk-flex-first@m">
+      {% include sidebar-page.html %}
+    </aside>
+  </div>
+{% elsif sidebar == 'right' %}
+    </div>
+    <aside class="uk-width-1-3@m">
+      {% include sidebar-page.html %}
+    </aside>
+  </div>
+{% endif %}
 
-		{{ page.content }}
-
-	</div>
-
-</section>
+</div>
