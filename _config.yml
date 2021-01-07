@@ -5,8 +5,8 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:              Étoile
-description:        Magazine Jekyll theme for writers and bloggers.
+title:              emmyoop
+description:        Mother of Two, Mathematician, Photographer
 url:                # Site base hostname & protocol, e.g. http://example.com
 baseurl:            "" # Site subpath, e.g. /blog
 logo_image:
@@ -35,26 +35,26 @@ navbar_primary:
 # Social share buttons
 social_share:
   twitter:          true
-  facebook:         true
+  facebook:         false
   linkedin:         true
-  pinterest:        true
-  reddit:           true
+  pinterest:        false
+  reddit:           false
 
 # Social networks
 social_networks:
-  email:          
+  email:
   website:        
   facebook:         https://www.facebook.com/
   flickr:         
   dribbble:       
-  github:         
+  github:          https://github.com/emmyoop
   reddit:         
-  instagram:        https://www.instagram.com/
-  linkedin:       
+  instagram:
+  linkedin:       https://www.linkedin.com/in/emilyrockman/
   pinterest:      
-  twitter:          https://twitter.com/
+  twitter:          https://twitter.com/emmy_oop
   vimeo:          
-  youtube:          https://www.youtube.com/    
+  youtube:
 
 # Strings
 strings:

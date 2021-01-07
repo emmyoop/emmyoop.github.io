@@ -8,17 +8,17 @@ center:
   - title: All Posts
     url: /blog/
 
-  - title: Business
-    url: /category/business/
+  - title: Data
+    url: /category/data/
 
-  - title: Culture
-    url: /category/culture/
+  - title: Photography
+    url: /category/photography/
 
-  - title: Travel
-    url: /category/travel/
+  - title: Life
+    url: /category/life/
 
-  - title: Sport
-    url: /category/sport/
+  - title: Learn
+    url: /category/learn/
 
   - title: Pages
     dropdown:

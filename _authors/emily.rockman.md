@@ -2,7 +2,7 @@
 title:          Emily Rockman
 username:       emmyoop
 default:        true
-image:          https://pbs.twimg.com/profile_images/974603248119222272/N5PLzyan.jpg
+image:          https://thumbnails-photos.amazon.com/v1/thumbnail/0AjwN6xtSnOb4068vGxaow?viewBox=1254%2C1672&ownerId=A2YSTILI0U9Y05
 bio:            Mother of Two, Mathematician, Photographer
 email:          emily@rockman.life
 website:        https://emily.rockman.life
