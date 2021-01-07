@@ -1,7 +1,7 @@
 ---
 title:          Korra
 username:       korra
-image:          https://thumbnails-photos.amazon.com/v1/thumbnail/CpqVFOH2Sv6tcXHYg0kgUg?viewBox=1254%2C1672&ownerId=A2YSTILI0U9Y05
+image:          https://live.staticflickr.com/65535/50811835932_0b048103cd_b.jpg
 bio:            Sleeper of sleep, Eater of Peanut Butter, Fetcher of Ball
 email:          korra@rockman.life
 website:        https://korra.rockman.life
