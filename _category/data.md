@@ -1,4 +1,4 @@
 ---
-tag: business
-permalink: "/category/business/"
+tag: data
+permalink: "/category/data/"
 ---

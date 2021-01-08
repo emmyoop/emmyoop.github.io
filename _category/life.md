@@ -1,4 +1,4 @@
 ---
-tag: sport
-permalink: "/category/sport/"
+tag: life
+permalink: "/category/life/"
 ---

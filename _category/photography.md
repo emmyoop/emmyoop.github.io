@@ -1,4 +1,4 @@
 ---
-tag: culture
-permalink: "/category/culture/"
+tag: photography
+permalink: "/category/photography/"
 ---

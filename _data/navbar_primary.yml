@@ -20,17 +20,8 @@ center:
   - title: Learn
     url: /category/learn/
 
-  - title: Pages
-    dropdown:
-      - title: Blog
-        url: /blog/
-      - title: Contact
-        url: /contact/
-      - title: Sidebar Left
-        url: /sidebar-left/
-      - title: Sidebar Right
-        url: /sidebar-right/
-      - title: 404
-        url: /404/
+  - title: Contact
+    url: /contact/
+
 
 right:
