@@ -2,7 +2,7 @@
 layout: full
 ---
 
-{% include section-ad.html image="welcome.png" alt="Buy Étoile Jekyll Theme" width="" url="https://themeforest.net/user/pressapps/portfolio" blank="true" %}
+{% include section-ad.html image="welcome.png" alt="Solving Problems Today" width="" url="/welcome.png" blank="true" %}
 
 
 {% include section-featured.html title="Featured Story" %}
