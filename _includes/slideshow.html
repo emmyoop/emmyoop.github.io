@@ -3,7 +3,7 @@
     <ul class="uk-slideshow-items">
         {% for image in site.static_files %}
             {% if image.path contains include.folder %}
-                <li><img src="{{ image.path | absolute_url }}" alt="{{ image.basename }}" data-uk-cover style="margin: auto; display:block"></li>
+                <li><img src="{{ image.path | absolute_url }}" alt="{{ image.basename }}" data-uk-cover></li>
             {% endif %}
         {% endfor %}
     </ul>
