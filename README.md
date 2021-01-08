@@ -4,12 +4,13 @@ Jekyll Theme documentation is available online [https://docs.unbound.studio/etoi
 ### Things I want to fix/add
 
 1. Add sidebar to blog posts
-2. Fix image size on slideshow
-3. make search function work - looks like it only searches blog titles?
-4. Point to rockman.life
+2. FIX image size on slideshow
+3. FIX make search function work - looks like it only searches blog titles?
+4. ~~Point to rockman.life~~
 5. Get one data project up on the site
 6. Make contributers photos the same size
 7. Make slideshow use image links instead of having to store images in project
+8. FIX photos from upload folder not foudn on deploy
 
 ### How tos
 
