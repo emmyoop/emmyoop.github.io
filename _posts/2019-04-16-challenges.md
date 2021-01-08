@@ -1,10 +1,11 @@
 ---
 title: Photo Challenges
-image: https://live.staticflickr.com/65535/40671149653_441aefbc24_b.jpg
+image: https://live.staticflickr.com/65535/50813576593_51f4c1aa8a_o.jpg
 categories: [photography]
 tags: []
 hidden: false
 author: korra
+sidebar: left
 ---
 
 ## No Edits Allowed!

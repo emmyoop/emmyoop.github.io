@@ -29,16 +29,14 @@ footer:
         url: /contact/
 
   - widget: links
-    title: PRODUCTS
+    title: GAME JAMS
     links:
-      - title: "Advertising"
-        url: /#/
-      - title: "Featured Story"
-        url: /#/
-      - title: "Donations"
-        url: /#/
-      - title: "Charity"
-        url: /#/
+      - title: "LD46"
+        url: https://redowlgames.com/project/ld46
+      - title: "LD45"
+        url: https://redowlgames.com/project/ld45
+      - title: "LD44"
+        url: https://redowlgames.com/project/ld44
 
   - widget: categories
     title: CATEGORIES
