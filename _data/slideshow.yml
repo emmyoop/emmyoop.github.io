@@ -1,0 +1,30 @@
+- id: macro1
+  description: This is the first gallery
+  imagefolder: /img/demopage
+  images:
+  - name: "https://live.staticflickr.com/65535/40670230733_3823c8d293_k.jpg"
+    thumb: thumb-1.jpg
+    text: The first image
+  - name: "https://live.staticflickr.com/65535/32694196947_94789781a6_k.jpg"
+    thumb: thumb-2.jpg
+    text: The second image
+  - name: https://live.staticflickr.com/65535/46721174445_37b2694516_k.jpg"
+    thumb: thumb-3.jpg
+    text: The third image
+
+- id: macro2
+  description: This is even another gallery!
+  imagefolder: /img/demopage
+  images:
+  - name: "https://live.staticflickr.com/65535/46912522094_a7fce9e910_b.jpg"
+    thumb: thumb-4.jpg
+    text: Another gallery, first image
+  - name: "https://live.staticflickr.com/65535/46721176345_a5c6576834_b.jpg"
+    thumb: thumb-5.jpg
+    text: Another gallery, second image
+  - name: "https://live.staticflickr.com/65535/46912523554_c27815e35d_b.jpg"
+    thumb: thumb-6.jpg
+    text: Another gallery, third image
+  - name: "https://live.staticflickr.com/65535/46721178475_f0d409179b_b.jpg"
+    thumb: thumb-7.jpg
+    text: Another gallery, fourth image
