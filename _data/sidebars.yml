@@ -21,12 +21,8 @@ footer:
   - widget: links
     title: ABOUT
     links:
-      - title: "About Us"
-        url: /#/
-      - title: "Our Story"
-        url: /#/
-      - title: "Contact"
-        url: /contact/
+      - title: "My Story"
+        url: /story/
 
   - widget: links
     title: GAME JAMS
@@ -37,10 +33,6 @@ footer:
         url: https://redowlgames.com/project/ld45
       - title: "LD44"
         url: https://redowlgames.com/project/ld44
-
-  - widget: categories
-    title: CATEGORIES
-    count: 5
 
   - widget: authors
     title: CONTRIBUTORS
