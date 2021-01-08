@@ -17,7 +17,7 @@ layout: full
 {% include section-authors.html title="Our Contributors" %}
 
 
-{% include section-ad.html title="Red Owl Games" image="https://live.staticflickr.com/65535/50811911332_3f699afd22_q.jpg" url="https://redowlgames.com/" blank="true" %}
+{% include section-ad.html title="Red Owl Games" image="https://live.staticflickr.com/65535/50811911332_3f699afd22_q.jpg" url="https://redowlgames.com/" alt="Red Owl Games" blank="true" tagline="Rocktavious's passion project that I passionately contribute to."%}
 
 
 <!-- 
