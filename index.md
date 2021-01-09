@@ -2,7 +2,7 @@
 layout: full
 ---
 
-{% include section-ad.html image="welcome.png" alt="Solving Problems Today" width="" blank="true" %}
+{% include section-ad.html image="https://live.staticflickr.com/65535/50817499397_cb8c5ffedd_h.jpg" alt="Solving Problems Today" width="" blank="true" %}
 
 
 {% include section-featured.html title="Featured Story" %}

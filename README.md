@@ -1,5 +1,5 @@
 ### Documentation
-Jekyll Theme documentation is available online [https://docs.unbound.studio/etoile-writer-blogger-jekyll-theme/s](https://docs.unbound.studio/etoile-writer-blogger-jekyll-theme/s). 
+Jekyll Theme documentation is available online [https://docs.unbound.studio/etoile-writer-blogger-jekyll-theme/](https://docs.unbound.studio/etoile-writer-blogger-jekyll-theme/). 
 
 ### Things I want to fix/add
 
@@ -10,7 +10,7 @@ Jekyll Theme documentation is available online [https://docs.unbound.studio/etoi
 5. Get one data project up on the site
 6. Make contributers photos the same size
 7. Make slideshow use image links instead of having to store images in project
-8. FIX photos from upload folder not foudn on deploy
+8. FIX photos from upload folder not found on deploy
 
 ### How tos
 
