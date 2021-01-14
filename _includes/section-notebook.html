@@ -1,0 +1,31 @@
+{% if include.author %}
+  {% assign author = site.authors | where: 'username', include.author | first %}
+{% else %}
+  {% assign author = site.authors | where: 'default', true | first %}
+{% endif %}
+
+{% unless include.border_top -%}
+<div class="uk-container uk-margin-medium-bottom">
+  <hr class="uk-margin-remove">
+</div>
+{%- endunless -%}
+
+<div class="uk-container uk-container-small uk-margin-medium-bottom">
+<div data-uk-grid class="uk-grid-large uk-flex uk-flex-center">
+
+    <div class="uk-width-3-4@s uk-flex uk-flex-middle">
+    <div>
+        <h2 class="uk-h1">{{ include.title }}</h2>
+        {% include content-notebook.html %}
+
+
+        </div>
+    </div>
+</div>
+</div>
+
+  {% if include.content %}
+    <div class="uk-margin">{{ notebook.content }}</div>
+  {% endif %}
+
+{{include notebook.notebook }}

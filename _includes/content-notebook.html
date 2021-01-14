@@ -1,0 +1,25 @@
+<div>
+  <div class="uk-card">
+    <div class="uk-card-media-top">
+      {% if notebook.image %}
+      <a href="{{ notebook.url | relative_url }}"><img class="uk-width-small uk-border-circle" src="{% if notebook.image contains 'http' %}{{ notebook.image }}{% else %}{{ site.uploads | absolute_url }}{{ notebook.image }}{% endif %}" alt="{{ notebook.title }}"></a>
+      {% endif %}
+    </div>
+    <div class="uk-card-body">
+      <div class="uk-text-uppercase uk-article-meta">
+        <a class="link-primary article-title-font card-categories" href="{{ notebook.url | relative_url }}">{{ notebook.title }}</a>
+      </div>
+      {% assign post = site.posts | where: 'author', author.username | first %}
+
+        <h3 class="card-title-small article-title-font"><a href="{{ post.url | relative_url }}">{{ notebook.title }}</a></h3>
+        <div class="content-secondary">{{ include.notebook }}</div>
+
+    </div>
+  </div>
+</div>
+
+<figure class="{% if include.align == 'left' %}uk-align-left@s uk-width-1-2@s{% elsif include.align == 'right' %}uk-align-right@s uk-width-1-2@s{% else %}uk-margin-medium{% endif %}">
+
+  <img src="{% if include.img contains 'http' %}{{ include.img }}{% else %}{{ site.uploads | absolute_url }}{{ include.img }}{% endif %}"{% if include.alt %} alt="{{ include.alt }}"{% endif %}>
+    {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
+</figure>

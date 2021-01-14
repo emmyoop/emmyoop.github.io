@@ -21,5 +21,5 @@ layout: full
 
 
 <!-- 
-{% include section-author.html author="john" title="Hello, I am Jane! Welcome to my blog." %} 
+{% include section-author.html author="emmyoop" title="Hello, I am Emily! Welcome to my blog." %} 
 -->
