@@ -8,7 +8,7 @@ email:          emily@rockman.life
 website:        https://emily.rockman.life
 github:         https://github.com/emmyoop
 linkedin:       https://www.linkedin.com/in/emilyrockman
-twitter:        https://twitter.com/emmy_oop
+twitter:        
 ---
 
 Growing up I was the rare breed of kid that never changed what I wanted to be when I grew up.  I was going to be a veterinarian.  I loved animals.  That never changed.  I even went to summer camp in high school for aspiring veterinarians.  It just solidified what I wanted to do.
