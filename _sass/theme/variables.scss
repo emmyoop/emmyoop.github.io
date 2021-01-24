@@ -35,8 +35,8 @@ $base-body-color: $color-dark;
 $base-hr-border: $global-border;
 
 $global-font-size: 16px;
-$global-link-color: $global-secondary-background;
-$global-link-hover-color: $global-primary-background;
+$global-link-color: $global-primary-background;
+$global-link-hover-color: $global-secondary-background;
 $global-xxlarge-font-size: 2.074rem;
 $global-xlarge-font-size: 1.728rem;
 $global-large-font-size: 1.44rem;
@@ -84,6 +84,8 @@ $card-body-padding-vertical-l: $global-gutter;
 
 $article-title-font-size: $global-xlarge-font-size;
 $article-title-font-size-m: 3rem;
+$article-title-color: $global-secondary-background;
+$article-title-color-hover: $global-primary-background;
 $article-title-line-height: 1.2;
 
 $article-meta-font-size: 1.0625rem;

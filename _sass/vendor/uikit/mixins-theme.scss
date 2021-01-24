@@ -485,13 +485,13 @@
 
     a,
     .uk-link  {
-        color: $inverse-base-link-color;
+        color: $inverse-base-link-hover-color;
         @if(mixin-exists(hook-inverse-base-link)) {@include hook-inverse-base-link();}
     }
 
     a:hover,
     .uk-link:hover {
-        color: $inverse-base-link-hover-color;
+        color: $inverse-base-link-color;
         @if(mixin-exists(hook-inverse-base-link-hover)) {@include hook-inverse-base-link-hover();}
     }
 

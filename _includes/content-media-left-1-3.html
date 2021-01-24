@@ -23,7 +23,7 @@
             {% endfor %}
           </div>
         {% endif %}
-        <h3 class="uk-card-title article-title-font"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <h3 class="uk-card-title uk-article-title article-title-font"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
         <div class="content-secondary">{{ post.excerpt }}</div>
         <div class="card-meta">
           <b>{{ site.strings.author_by | default: 'By' }} <a href="{{ author.url }}" rel="author" title="{{ author.title }}">{{ author.title }}</a></b>
