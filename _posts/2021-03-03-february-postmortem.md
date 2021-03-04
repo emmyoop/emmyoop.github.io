@@ -13,11 +13,11 @@ It's laughable how I thought there was a weather whiplash in early February.  Ha
 2. No water for more than 24 hours (just 48 hours in our case)
 3. Boiling water because it might otherwise make you sick (if you had water and power that is)
 4. Conserving power (and hoping others do the same) if/when you get it to reduce load on the grid to increase how many can get back their power
-5. Dealing with burst pipes and collapsed ceiling when there are waitlists to get help
+5. Dealing with burst pipes and collapsed ceilings when there are waitlists to get help
 
 {% include image.html img="https://live.staticflickr.com/65535/51002641098_14c47f4330_b.jpg" alt="Sledding" caption="Texas sledding on tupperware tops" %}
 
-Ok, on to my postmortem.
+Ok, on to how February panned out.
 
 ### Goals for February
 
@@ -40,7 +40,7 @@ From the top!
 
 - Compost?  Check!
 - Seed? Technically not done until March 2nd, but done as of the writing of this post!
-- Trim Rosemary? Snovid killed the Rosemary so I **trimmed** it down to the ground and will be replanting it
+- Trim Rosemary? Snovid killed the Rosemary so I *trimmed* it down to the ground and will be replanting it
 - General clean up?  Done!
 
 All that's left is to get a few transplants (tomato, serrano and dill) and see if I can find some watermelon radish seeds.
@@ -49,7 +49,7 @@ All that's left is to get a few transplants (tomato, serrano and dill) and see i
 
 {% include image.html img="https://live.staticflickr.com/65535/50933099621_39c00d5daa_b.jpg" alt="Enchanted Rock View" caption="View from the Summit Trail" align="right" %}
 
-It was a great trip.  Both kids hiked all teh way to the top, down the side, up to the Little Rock summit and back down.  It was about 2 miles of serious hills.  The 2.5 year old was pooped and rode on our shoulders after that but thr 4.5 year old kept going for another mile, no problem.  Strong kids!  I can't wait to visit more parks.
+It was a great trip.  Both kids hiked all the way to the top, down the side, up to the Little Rock summit and back down.  It was about 2 miles of serious hills.  The 2.5 year old was pooped and rode on our shoulders after that but the 4.5 year old kept going for another mile, no problem.  Strong kids!  I can't wait to visit more parks.
 
 ### 3. Complete the APIs and Web Scraping In Python course in DataQuest
 
@@ -61,7 +61,7 @@ This will be moving to March.  I started this but got off track working on my pe
 
 ### 4. Build my own (albeit simple) project.  
 
-I wasn't able to find *any* data on State Park attendance.  @Rocktavious suggested I contact them and try to get it.  I may still do that but so I could get moving on a project I found another data source.  
+I wasn't able to find *any* data on State Park attendance.  [@Rocktavious](https://twitter.com/rocktavious) suggested I contact them and try to get it.  I may still do that but so I could get moving on a project I found another data source.  
 
 My family tries to watch the International Space Station (ISS) pass over the night sky when we can.  The notification system NASA provides for the ISS pass over is TERRIBLE.  So bad.  So I decided to try to make my own!  You can read more about it on my [Weather Whiplash February](/february-progress) post. 
 
